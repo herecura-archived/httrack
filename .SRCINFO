@@ -1,6 +1,6 @@
 pkgbase = httrack
 	pkgdesc = An easy-to-use offline browser utility.
-	pkgver = 3.48.2
+	pkgver = 3.48.3
 	pkgrel = 1
 	url = http://www.httrack.com/
 	install = httrack.install
@@ -11,8 +11,8 @@ pkgbase = httrack
 	depends = zlib
 	options = !libtool
 	options = !makeflags
-	source = http://download.httrack.com/httrack-3.48.2.tar.gz
-	sha256sums = 707b13769298caa38736bdb54551c20c56b491009adc73a90b750a16ed914332
+	source = http://download.httrack.com/httrack-3.48.3.tar.gz
+	sha256sums = 19d84efb14c6952ed503c84fc6f5daa40b9189b94546c6ddf903074071cee5d1
 
 pkgname = httrack
 
