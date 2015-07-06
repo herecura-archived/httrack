@@ -1,7 +1,7 @@
 pkgbase = httrack
 	pkgdesc = An easy-to-use offline browser utility.
 	pkgver = 3.48.21
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.httrack.com/
 	install = httrack.install
 	arch = i686

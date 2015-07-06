@@ -4,7 +4,7 @@
 
 pkgname=httrack
 pkgver=3.48.21
-pkgrel=1
+pkgrel=2
 pkgdesc="An easy-to-use offline browser utility."
 arch=('i686' 'x86_64')
 url="http://www.httrack.com/"
@@ -13,6 +13,7 @@ depends=('bash' 'zlib')
 options=('!libtool' '!makeflags')
 install="$pkgname.install"
 source=("http://download.httrack.com/$pkgname-$pkgver.tar.gz")
+sha256sums=('e9cac3d8a5229f8e789e377b66d517b001fb13698f3e36b82659967365728283')
 
 build() {
   cd "$pkgname-$pkgver"
@@ -27,4 +28,3 @@ package() {
 
   make DESTDIR="$pkgdir" install
 }
-sha256sums=('e9cac3d8a5229f8e789e377b66d517b001fb13698f3e36b82659967365728283')
